@@ -1,0 +1,99 @@
+.article_main{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mainContentTitleInr{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.anime_tag{
+  display: inline-block;
+  margin: 5px 0;
+  padding: 3px 5px;
+  background: #fbbda4;
+  color: #ffffff;
+}
+
+.article_main_img{
+  margin: 20px 0 40px;
+}
+
+.arasuji{
+  background: #e3e3e3;
+  color: #3d3d3d;
+  padding: 30px 40px 20px;
+  position: relative;
+  margin: 0 0 0 0;
+}
+
+.arasuji p{
+  position: absolute;
+  top: -18px;
+  left: 0px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.2em;
+}
+
+.lead{
+  line-height: 4;
+  margin: 0 0 30px 0;
+}
+
+.artcle{
+  line-height: 2;
+}
+
+
+h3{
+  border-bottom: 0.5px solid #ffe7de;
+  padding: 0 0 4px;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 30px 0 30px 0;
+}
+
+p.see_time{
+  color: #ff9670;
+  text-align: center;
+  padding: 30px 0;
+  margin: 30px 0;
+  border: 0.5px solid #ffe7de;
+}
+
+
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+  .article_main{
+    width: 80%;
+    font-size: 12px;
+  }
+  .mainContentTitleInr{
+    font-size: 18px;
+  }
+  .time{
+    font-size: 9px;
+  }
+  .anime_tag{
+    font-size: 9px;
+  }
+  h3{
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
